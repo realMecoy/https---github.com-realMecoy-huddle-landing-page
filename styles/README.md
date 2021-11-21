@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository URL](https://github.com/realMecoy/huddle-landing-page)
+- Live Site URL: [Huddle landing page](https://realmecoy.github.io/https---github.com-realMecoy-huddle-landing-page/)
 
 ## My process
 
