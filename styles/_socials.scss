@@ -1,0 +1,45 @@
+.social-icons {
+  grid-column: 1 / 12;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  // border: solid $white 1px;
+
+  @include for-size(phone-only) {
+    justify-content: center;
+  }
+
+  @include for-size(tablet-portrait) {
+    justify-content: center;
+  }
+
+  .icons-container {
+    display: flex;
+    margin-right: 2rem;
+
+    @include for-size(phone-only) {
+      margin: 0;
+    }
+  }
+
+  li {
+    color: $white;
+    font-size: 1.5rem;
+    border: solid $white 1px;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-4px);
+      background-color: $white;
+      color: $magenta;
+      transition: transform 1s ease-in-out, background-color 1s ease-in;
+    }
+  }
+}

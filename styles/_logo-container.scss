@@ -1,0 +1,20 @@
+@import "mixins";
+
+.logo-container {
+  grid-column: 1 / 12;
+  grid-row: 1 / 2;
+  height: 90%;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include for-size(phone-only) {
+    width: 90%;
+    margin: 1rem auto;
+
+    #logo-image {
+      width: 40%;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+$violet: hsl(257, 40%, 49%);
+$magenta: hsl(300, 69%, 71%);
+$white: #fff;
+
+$Osans: "Open Sans", sans-serif;
+$poppins: "Poppins", sans-serif;
+
+$mobile: 425px;
+$desktop: 1440px;
+$lg-desktop: 1900px;
+
+@import "logo-container", "mockup", "main-section", "socials", "footer", "mixins";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $Osans;
+  background-image: url("/imgs/bg-desktop.svg");
+  background-color: $violet;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  @include for-size(phone-only) {
+    background-image: url("/imgs/bg-mobile.svg");
+    background-size: 100%;
+    background-position: top;
+  }
+}
+
+.page-container {
+  width: 90%;
+  height: 98vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, min-max(16rem, 1fr));
+  justify-content: space-between;
+  margin: auto;
+
+  @include for-size(phone-only) {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 3rem;
+  }
+
+  @include for-size(tablet-portrait) {
+    height: 100%;
+  }
+}

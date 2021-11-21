@@ -1,0 +1,12 @@
+footer {
+  grid-column: 1 / 12;
+  grid-row: 10 / 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include for-size(phone-only) {
+    display: block;
+    text-align: center;
+  }
+}

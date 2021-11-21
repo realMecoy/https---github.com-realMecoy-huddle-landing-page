@@ -1,0 +1,19 @@
+.mockup-container {
+  grid-column: 1 / 8;
+  grid-row: 2 / 8;
+  width: 90%;
+  height: 90%;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+
+  @include for-size(phone-only) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+  }
+}
