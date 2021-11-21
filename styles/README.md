@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository URL](https://github.com/realMecoy/huddle-landing-page)
+- Solution URL: [Repository URL](https://github.com/realMecoy/realMecoy-huddle-landing-page)
 - Live Site URL: [Huddle landing page](https://realmecoy.github.io/https---github.com-realMecoy-huddle-landing-page/)
 
 ## My process
