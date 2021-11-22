@@ -236,7 +236,7 @@ footer {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("bg-desktop.svg");
+  background-image: url("imgs/bg-desktop.svg");
   background-color: #674baf;
   background-position: center;
   background-repeat: no-repeat;
@@ -246,7 +246,7 @@ body {
 
 @media (max-width: 517px) {
   body {
-    background-image: url("bg-mobile.svg");
+    background-image: url("imgs/bg-mobile.svg");
     background-size: 100%;
     background-position: top;
   }
