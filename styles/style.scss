@@ -21,7 +21,7 @@ $lg-desktop: 1900px;
 
 body {
   font-family: $Osans;
-  background-image: url("imgs/bg-desktop.svg");
+  background-image: url("./imgs/bg-desktop.svg");
   background-color: $violet;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
   position: relative;
 
   @include for-size(phone-only) {
-    background-image: url("imgs/bg-mobile.svg");
+    background-image: url("./imgs/bg-mobile.svg");
     background-size: 100%;
     background-position: top;
   }
